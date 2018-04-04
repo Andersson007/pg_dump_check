@@ -19,7 +19,7 @@ IMPORTANT: dump directories must be done in the 'directory' format and its names
 
 Usage: set up desired settings -> test it -> add to the crontab
 
-Notification's content example:
+Notification content example:
 ```
 my-test-srv.local: pg_restore of /tmp/backup/20180329_test has been done:
 dump_size=49M, exec_time=00:00:19, cluster_size=6.3G

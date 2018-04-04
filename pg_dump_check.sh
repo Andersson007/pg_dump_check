@@ -22,7 +22,7 @@
 #
 # This script have automatic rotated log files
 #
-# Notification's content example:
+# Notification content example:
 # -------------------------------
 #   my-test-srv.local: pg_restore of /tmp/backup/20180329_test has been done:
 #   dump_size=49M, exec_time=00:00:19, cluster_size=6.3G
@@ -80,6 +80,7 @@ function get_now_time() {
 }
 
 
+# temporary, needs to be done well:
 function write_to_log() {
     echo "$(get_now_time) $1: $2" >> ${LOG}
 }
